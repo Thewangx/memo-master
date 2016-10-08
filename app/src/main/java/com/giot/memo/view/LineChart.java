@@ -56,12 +56,7 @@ public class LineChart extends View {
     private String[] xAxis = new String[]{"1月", "3月", "5月", "7月", "9月", "11月"};
     private int[] yAxis = new int[3];
     private int padding = ScreenUtil.dip2px(getContext(), 40);
-    private static final int LAYER_FLAGS =
-            Canvas.MATRIX_SAVE_FLAG |
-                    Canvas.CLIP_SAVE_FLAG |
-                    Canvas.HAS_ALPHA_LAYER_SAVE_FLAG |
-                    Canvas.FULL_COLOR_LAYER_SAVE_FLAG |
-                    Canvas.CLIP_TO_LAYER_SAVE_FLAG;
+
     public LineChart(Context context) {
         super(context);
         init();
@@ -195,7 +190,7 @@ public class LineChart extends View {
 
         //y轴
             for (int i = 0; i < 3; i++) {
-                canvas.drawText(yAxis[i]+"", ScreenUtil.dip2px(getContext(),20), padding+yInterval * i+8, mPaintText);
+                canvas.drawText(yAxis[i]+"",ScreenUtil.dip2px(getContext(),20), padding+yInterval * i+8, mPaintText);
             }
 
 
