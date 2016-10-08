@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#323232</color>
+    <color name="colorPrimaryDark">#323232</color>
+    <color name="colorAccent">#323232</color>
+    <color name="colorBackground">#323232</color>
+    <color name="toolbar_text_color">#FFFFFF</color>
+    <color name="calculator_text_color">#FFFFFF</color>
+    <color name="edit_add_color">#F6F7F9</color>
+    <color name="default_text_color">#FFFFFF</color>
+    <color name="analysis_itemDecoration">#E6E6E6</color>
+    <color name="overall_zero">#9f9f9f</color>
+    <color name="income_button_line">#7ED1BF</color>
+    <color name="exp_button_line">#58C1EE</color>
+
+    <!--账单展示收入支出的颜色-->
+    <color name="pay_color">#F50B0B</color>
+    <color name="income_color">#2CEA78</color>
+
+    <!--账单分析界面各比例的色域-->
+    <color name="analysis_first">#FFD52D</color>
+    <color name="analysis_second">#FFB026</color>
+    <color name="analysis_three">#00E8FE</color>
+    <color name="analysis_four">#00BED3</color>
+    <color name="analysis_five">#FFABEE</color>
+    <color name="analysis_six">#B27BFC</color>
+</resources>

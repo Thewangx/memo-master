@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_export"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:navigationIcon="@drawable/ic_arrow_back">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/export"
+            android:textSize="@dimen/toolbar_text_size" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/please_input_email"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="96dp"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/editText_export_email"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/search_edit_background"
+        android:padding="8dp"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/default_text_color"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/export_date"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="32dp"
+        android:textSize="16sp"/>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/spinner_export_date"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/search_edit_background"
+        android:spinnerMode="dropdown"
+        android:dropDownVerticalOffset="54dp"
+        android:popupBackground="@drawable/spinner_drop_down"
+        android:padding="8dp"/>
+    
+    <Button
+        android:id="@+id/btn_export"
+        android:layout_width="126dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="64dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/submit_button"
+        android:textSize="16sp"
+        android:text="@string/push"/>
+    
+
+</LinearLayout>

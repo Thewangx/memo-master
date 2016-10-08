@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView_item_history"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:gravity="center_vertical"
+        android:drawableLeft="@mipmap/history"
+        android:drawableStart="@mipmap/history"
+        android:layout_toLeftOf="@+id/imageView_item_del"
+        android:layout_toStartOf="@+id/imageView_item_del"
+        android:drawablePadding="16dp"
+        android:textColor="#BCBEC4"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:id="@+id/imageView_item_del"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:scaleType="center"
+        android:src="@mipmap/history_del"
+        android:contentDescription="@string/search"/>
+
+</RelativeLayout>

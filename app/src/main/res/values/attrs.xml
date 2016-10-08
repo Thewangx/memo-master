@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RingChart">
+
+        <attr name="name" format="string|reference"/><!--圆环中心文字-->
+        <attr name="radius" format="dimension|reference"/><!--圆环半径-->
+        <attr name="name_color" format="color|reference"/><!--文字颜色-->
+        <attr name="inner_radius" format="dimension|reference"/><!--内圆半径-->
+        <attr name="inner_color" format="color|reference"/><!--内圆背景色-->
+
+    </declare-styleable>
+
+</resources>

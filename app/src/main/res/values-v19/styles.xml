@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Full" parent="AppTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="Theme.Drawer" parent="AppTheme"/>
+
+    <style name="progressDialog" parent="Theme.Light.Dialog" />
+
+</resources>

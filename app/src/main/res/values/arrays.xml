@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--收入类型-->
+    <array name="type_income">
+        <item>一般</item>
+        <item>收租</item>
+        <item>薪资</item>
+        <item>礼金</item>
+        <item>奖金</item>
+        <item>服务</item>
+        <item>投资</item>
+        <item>空白</item>
+        <item>出售</item>
+    </array>
+    <!--收入类型logo-->
+    <array name="type_income_ic">
+        <item>@mipmap/normal</item>
+        <item>@mipmap/rent</item>
+        <item>@mipmap/salary</item>
+        <item>@mipmap/gifts</item>
+        <item>@mipmap/bonus</item>
+        <item>@mipmap/service</item>
+        <item>@mipmap/invest</item>
+        <item> </item>
+        <item>@mipmap/sell</item>
+    </array>
+    <!--收入类型logo 选中状态-->
+    <array name="type_income_ic_selected">
+        <item>@mipmap/normal_selected</item>
+        <item>@mipmap/rent_selected</item>
+        <item>@mipmap/salary_selected</item>
+        <item>@mipmap/gifts_selected</item>
+        <item>@mipmap/bonus_selected</item>
+        <item>@mipmap/service_selected</item>
+        <item>@mipmap/invest_selected</item>
+        <item> </item>
+        <item>@mipmap/sell_selected</item>
+    </array>
+
+
+
+    <!--支出类型-->
+    <array name="type_expenditure">
+        <item>一般</item>
+        <item>数码</item>
+        <item>餐饮</item>
+        <item>美容</item>
+        <item>休闲</item>
+        <item>水果</item>
+        <item>生活</item>
+        <item>交通</item>
+        <item>衣服</item>
+        <item>孩子</item>
+        <item>通讯</item>
+        <item>理财</item>
+        <item>电影</item>
+        <item>汽车</item>
+        <item>旅行</item>
+        <item>医疗</item>
+        <item>学习</item>
+        <item>生意</item>
+        <item>宠物</item>
+        <item>人情</item>
+    </array>
+    <!--英文名-->
+    <array name="type_expenditure_en">
+        <item>others</item>
+        <item>digital</item>
+        <item>restaurant</item>
+        <item>beauty</item>
+        <item>hobby</item>
+        <item>fruits</item>
+        <item>family</item>
+        <item>traffic</item>
+        <item>clothes</item>
+        <item>kids</item>
+        <item>phone</item>
+        <item>investment</item>
+        <item>movie</item>
+        <item>car</item>
+        <item>travel</item>
+        <item>medical</item>
+        <item>study</item>
+        <item>office</item>
+        <item>pet</item>
+        <item>friends</item>
+    </array>
+    <!--支出类型logo-->
+    <array name="type_expenditure_ic">
+        <item>@mipmap/others</item>
+        <item>@mipmap/digital</item>
+        <item>@mipmap/restaurant</item>
+        <item>@mipmap/beauty</item>
+        <item>@mipmap/hobby</item>
+        <item>@mipmap/fruits</item>
+        <item>@mipmap/family</item>
+        <item>@mipmap/traffic</item>
+        <item>@mipmap/clothes</item>
+        <item>@mipmap/kids</item>
+        <item>@mipmap/phone</item>
+        <item>@mipmap/investment</item>
+        <item>@mipmap/movie</item>
+        <item>@mipmap/car</item>
+        <item>@mipmap/travel</item>
+        <item>@mipmap/medical</item>
+        <item>@mipmap/study</item>
+        <item>@mipmap/office</item>
+        <item>@mipmap/pet</item>
+        <item>@mipmap/friends</item>
+    </array>
+    <!--支出类型logo 选中状态-->
+    <array name="type_expenditure_ic_selected">
+        <item>@mipmap/others_selected</item>
+        <item>@mipmap/digital_selected</item>
+        <item>@mipmap/restaurant_selected</item>
+        <item>@mipmap/beauty_selected</item>
+        <item>@mipmap/hobby_selected</item>
+        <item>@mipmap/fruits_selected</item>
+        <item>@mipmap/family_selected</item>
+        <item>@mipmap/traffic_selected</item>
+        <item>@mipmap/clothes_selected</item>
+        <item>@mipmap/kids_selected</item>
+        <item>@mipmap/phone_selected</item>
+        <item>@mipmap/investment_selected</item>
+        <item>@mipmap/movie_selected</item>
+        <item>@mipmap/car_selected</item>
+        <item>@mipmap/travel_selected</item>
+        <item>@mipmap/medical_selected</item>
+        <item>@mipmap/study_selected</item>
+        <item>@mipmap/office_selected</item>
+        <item>@mipmap/pet_selected</item>
+        <item>@mipmap/friends_selected</item>
+    </array>
+
+    <string-array name="spinner_export_date">
+        <item>最近一天</item>
+        <item>近3天</item>
+        <item>近7天</item>
+        <item>近一个月</item>
+        <item>全部</item>
+    </string-array>
+
+    <!--账单分析界面颜色数组-->
+    <array name="analysis_color">
+        <item>@color/analysis_first</item>
+        <item>@color/analysis_second</item>
+        <item>@color/analysis_three</item>
+        <item>@color/analysis_four</item>
+        <item>@color/analysis_five</item>
+        <item>@color/analysis_six</item>
+    </array>
+</resources>

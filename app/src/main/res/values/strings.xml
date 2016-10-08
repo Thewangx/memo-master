@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Memo</string>
+    <string name="search">搜索</string>
+    <string name="analysis">账单分析</string>
+    <string name="add_bill">添加账单</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="portrait">头像</string>
+    <string name="exit">再按一次退出程序</string>
+    <string name="shake_feedback">我有一个问题要反馈</string>
+    <string name="cancel">取消</string>
+    <string name="add">添加</string>
+    <string name="income">收</string>
+    <string name="expenditure">支</string>
+    <string name="money_ic">￥</string>
+    <string name="remark">备注</string>
+    <string name="type_ic">类别图标</string>
+    <string name="keyboard_character">键盘符号</string>
+    <string name="please_input_email">请输入邮箱地址</string>
+    <string name="push">导出</string>
+    <string name="personal">个人详情</string>
+    <string name="logout">退出登录</string>
+    <string name="bill_sync">账单自动同步</string>
+    <string name="submit">提交</string>
+    <string name="your_email">您的邮箱:&#032;</string>
+    <string name="email_hint">&#060;邮箱:&#032;></string>
+    <string name="feedback_hint">(在此写下您的建议或者问题......)</string>
+    <string name="related_result">相关记录</string>
+    <string name="current_result">当前结果总收支</string>
+    <string name="yuan">元</string>
+    <string name="confirm_clear">账单数据一经清除将无法恢复!</string>
+    <string name="weChat_friends">微信</string>
+    <string name="weChat_timeline">朋友圈</string>
+    <string name="dialog_share_title">分享到</string>
+    <string name="export_date">区间:&#032;</string>
+    <string name="evaluation">消费测评</string>
+    <string name="total">总计</string>
+    <string name="analysis_hint">未展示的分类因比例较少归为\"其他\"</string>
+    <string name="login">登录</string>
+    <string name="we_chat_login">微信登录</string>
+    <string name="last_money">上月结余</string>
+    <string name="current_income">当月收入</string>
+    <string name="current_expenditure">当月支出</string>
+    <string name="overall_expenditure">支出</string>
+    <string name="overall_income">收入</string>
+
+    <!--主页drawer菜单-->
+    <string name="export">导出excel</string>
+    <string name="clear_data">清除数据</string>
+    <string name="about">关于我们</string>
+    <string name="share_app">分享应用</string>
+    <string name="feedback">反馈</string>
+    <string name="login_register">登录/注册</string>
+
+    <!--键盘字母-->
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="point">.</string>
+    <string name="plus_ic">+</string>
+    <string name="minus_ic">-</string>
+    <string name="c">C</string>
+    <string name="multiplication">×</string>
+    <string name="divide">÷</string>
+
+</resources>

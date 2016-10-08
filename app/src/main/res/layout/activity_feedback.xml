@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:navigationIcon="@drawable/ic_arrow_back">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/feedback"
+            android:textSize="@dimen/toolbar_text_size" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/editText_feedback_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/linear_feedback"
+            android:hint="@string/feedback_hint"
+            android:background="#575656"
+            android:padding="12dp"
+            android:gravity="top"
+            android:textColor="#BCBEC4"
+            android:textColorHint="#BCBEC4"
+            android:layout_marginBottom="16dp"/>
+
+        
+        <LinearLayout
+            android:id="@+id/linear_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_feedback_submit"
+            android:layout_marginBottom="64dp"
+            android:orientation="horizontal">
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/your_email"
+                android:textColor="#BCBEC4"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/editText_feedback_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:gravity="end"
+                android:hint="@string/email_hint"
+                android:textColor="#BCBEC4"
+                android:textColorHint="#5C5C60"
+                android:background="@null"/>
+            
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_feedback_submit"
+            android:layout_width="126dp"
+            android:layout_height="36dp"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/submit_button"
+            android:textSize="16sp"
+            android:text="@string/submit"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
