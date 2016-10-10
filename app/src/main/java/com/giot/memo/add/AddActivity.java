@@ -51,12 +51,12 @@ public class AddActivity extends BaseActivity implements AddContract.View {
     public static int itemWidth;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add);
         ButterKnife.bind(this);
-        itemWidth = (ScreenUtil.getScreenSize(this).widthPixels-ScreenUtil.dip2px(this,64))/5;
         Bundle bundle = getIntent().getExtras();
         Bill bill = null;
         if (bundle != null) {
@@ -65,6 +65,7 @@ public class AddActivity extends BaseActivity implements AddContract.View {
         }
         initView();
         initListener();
+        itemWidth = (ScreenUtil.getScreenSize(this).widthPixels-ScreenUtil.dip2px(this,60))/5;
         new AddPresenter(this);
         mPresenter.setModify(bill != null, bill);
         if (mDate != null) {
@@ -192,5 +193,6 @@ public class AddActivity extends BaseActivity implements AddContract.View {
         }
         mPresenter = presenter;
     }
+
 
 }

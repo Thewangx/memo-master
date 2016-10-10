@@ -21,6 +21,7 @@ public class PageRecyclerView extends RecyclerView {
 
 
 
+
     public PageRecyclerView(Context context) {
         super(context);
     }
@@ -50,6 +51,10 @@ public class PageRecyclerView extends RecyclerView {
         shortestDistance = getMeasuredWidth() / 3;
     }
 
+    @Override
+    protected void onLayout(boolean changed, int l, int t, int r, int b) {
+        super.onLayout(changed, l, t, r, b);
+    }
 
     @Override
     public void onScrolled(int dx, int dy) {
